@@ -1,0 +1,17 @@
+{
+  "settings": {
+    "index.number_of_shards": 3,
+    "index.max_result_window": 20000000,
+    "number_of_replicas": 1,
+    "index.refresh_interval": "60s",
+    "index.highlight.max_analyzed_offset": "10000",
+    "analysis": {
+      "analyzer": {
+        "ikAnalyzer": {
+          "type": "custom",
+          "tokenizer": "standard"
+        }
+      }
+    }
+  }
+}

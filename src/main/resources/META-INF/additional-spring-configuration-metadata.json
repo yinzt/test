@@ -1,0 +1,72 @@
+{"properties": [
+  {
+    "name": "spring.elasticsearch.onnect-timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.elasticsearch.onnect-timeout'"
+  },
+  {
+    "name": "spring.elasticsearch.address",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.elasticsearch.address'"
+  },
+  {
+    "name": "spring.elasticsearch.socket-timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.elasticsearch.socket-timeout'"
+  },
+  {
+    "name": "eureka.client.service-url.default-zone",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.client.service-url.default-zone'"
+  },
+  {
+    "name": "management.endpoints.web.exposure.include",
+    "type": "java.lang.String",
+    "description": "A description for 'management.endpoints.web.exposure.include'"
+  },
+  {
+    "name": "management.endpoint.health.show-details",
+    "type": "java.lang.String",
+    "description": "A description for 'management.endpoint.health.show-details'"
+  },
+  {
+    "name": "spring.elasticsearch.connect-timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.elasticsearch.connect-timeout'"
+  },
+  {
+    "name": "spring.elasticsearch.connection-request-timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.elasticsearch.connection-request-timeout'"
+  },
+  {
+    "name": "spring.elasticsearch.max-connect-per-route",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.elasticsearch.max-connect-per-route'"
+  },
+  {
+    "name": "ubsctuate.authentication-app-key",
+    "type": "java.lang.String",
+    "description": "A description for 'ubsctuate.authentication-app-key'"
+  },
+  {
+    "name": "search.authentication-url",
+    "type": "java.lang.String",
+    "description": "A description for 'search.authentication-url'"
+  },
+  {
+    "name": "spring.elasticsearch.max-connect-num",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.elasticsearch.max-connect-num'"
+  },
+  {
+    "name": "search.search-download-url",
+    "type": "java.lang.String",
+    "description": "A description for 'search.search-download-url'"
+  },
+  {
+    "name": "search.config-path",
+    "type": "java.lang.String",
+    "description": "A description for 'search.config-path'"
+  }
+]}

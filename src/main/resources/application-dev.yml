@@ -1,0 +1,56 @@
+# 配置文件加密key
+jasypt:
+  encryptor:
+    password: es
+
+server:
+  port: 8081
+  servlet:
+    context-path: /
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+    accept-count: 10000
+    max-connections: 5000
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+  health:
+    elasticsearch:
+      enabled: false
+      
+spring:
+   ## springcloud服务名字
+  application:
+    name: ES-SERVICE-EUREKA
+   ##name: CLOUD-CLIENT-EUREKA
+  mvc:
+    date-format: yyyy-MM-dd
+    static-path-pattern: /images/**
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  elasticsearch:
+    address: 223.223.200.34:9200  #如果是集群，用逗号隔开
+    connect-timeout: 1000   #连接超时时间
+    socket-timeout: 30000   #连接超时时间
+    connection-request-timeout: 500
+    max-connect-num: 100
+    max-connect-per-route: 100  
+      
+search:
+   search-download-url: http://223.223.200.34:9000/core/index.php?mod=searchdownload
+   config-path: /usr/share/elasticsearch/esapp.conf
+   #config-path: D:\\workspace\\essss\\esapp.conf
+    
+
+
+  

@@ -1,0 +1,52 @@
+{
+  "t_db_document_space": {   
+    "properties": {
+      "fid": {
+        "type": "keyword"
+      },
+      "type": {
+        "type": "keyword"
+      },
+      "fname": {
+        "type": "text",
+        "analyzer": "ikAnalyzer",
+        "search_analyzer": "ikAnalyzer"        
+      },
+      "fnameStr": {
+        "type": "keyword"
+      },
+      "ftype": {
+        "type": "integer"
+      },
+      "ftime": {
+        "type": "integer"
+      },
+      "fsize": {
+        "type": "integer"
+      },
+      "ver": {
+        "type": "integer"
+      },
+      "uid": {
+        "type": "keyword"
+      },
+      "fullText": {
+        "type": "text",
+        "analyzer": "ikAnalyzer",
+        "search_analyzer": "ikAnalyzer"        
+      },
+      "indexid":{
+         "type": "keyword"
+      },
+      "fpath":{
+         "type": "keyword"
+      },
+      "username":{
+         "type": "keyword"
+      },
+      "initials":{
+         "type": "keyword"
+      }
+    }
+  }
+} 
